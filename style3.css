@@ -1,0 +1,110 @@
+
+
+body{
+    background: rgb(9,57,35);
+    background: radial-gradient(circle, rgba(9,57,35,1) 83%, rgba(31,21,2,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+nav a{
+    color: #FFF;
+    border-radius: 5px;
+    background-position: 0%;
+    background-size: 200%;
+    text-decoration: none;
+    margin-left:80px;
+    padding: 5px;
+    font-size: 50px;
+    border: solid 1px white;
+    box-shadow:5px 10px #062115;
+    min-width: auto;
+}
+nav a:hover{
+    color: white;
+    background-position: 100%;
+    transition: ease-in 0.3s;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    border: none;
+    transform: translateY(-0.15em);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}    
+article{
+    display: flex;
+    font-size: 20px;
+    color: #56CC85;
+    margin-top: 5%px;
+    margin-bottom: 5%;
+    background-color: #382703;
+    box-shadow: 5px 10px #271b02;
+    width: 30%;
+    margin-left: 20%;
+    min-width: auto;
+}
+h4{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-family:'Luckiest Guy', cursive;
+    font-size: 40px;
+    text-shadow: 10px 10px #062115;
+}
+
+strong{
+    text-decoration-line: underline;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    
+}
+#artikel1{
+    margin-left:23%;
+    font-family: 'Lato', sans-serif;
+    background-color: #382703;
+    border-radius:5px;
+    transform: skew(0.02turn,0deg);
+}
+#artikel1 p{
+    margin-left: 4%;
+    transform: skew(-0.02turn,0deg);
+}
+#artikel2{
+    margin-left:18%;
+    font-family: 'Lato', sans-serif;
+    background-color: #382703;
+    border-radius:5px;
+    transform: skew(0.02turn,0deg);
+}
+#artikel2 p{
+    margin-left: 4%;
+}
+#artikel3{
+    margin-left:23%;
+    font-family: 'Lato', sans-serif;
+    background-color: #382703;
+    border-radius:5px;
+    transform: skew(0.02turn,0deg);
+}
+#artikel3 p{
+    margin-left: 4%;
+    
+}
+footer{
+    display:flex;
+    background-color:#382703 ;
+    border-radius: 5px;
+    box-shadow: 5px 10px #271b02;
+    
+    background-size: 50px 100px;
+}
+footer a{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-decoration: none;
+    color:#56CC85;
+}

@@ -1,0 +1,98 @@
+#navigatie{
+    font-size: 35px; 
+    display: flex;
+    justify-content: center;
+}
+body{
+    background: rgb(9,57,35);
+    background: radial-gradient(circle, rgba(9,57,35,1) 83%, rgba(31,21,2,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+#navigatie a{
+    color: #FFF;
+    border-radius: 5px;
+    background-position: 0%;
+    background-size: 200%;
+    text-decoration: none;
+    margin-left:80px;
+    padding: 5px;
+    font-size: 40px;
+    border: solid 1px white;
+    box-shadow:5px 10px #062115;
+    
+}
+#navigatie a:hover{
+    color: white;
+    background-position: 100%;
+    transition: ease-in 0.5s;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    border: none;
+    transform: translateY(-0.15em);
+}
+table{
+    margin-top: 120px;
+}
+
+td{
+    border: #382703 solid 5px;
+    color: white;
+    font-size: 20px;
+}
+#tabel1{
+    display: flex;
+    justify-content: center;
+}
+#tabel1 img{
+    height: 150px;
+    margin-top: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    order: 1;
+    margin-right: 180px;
+}
+#tabel1 table{
+    order: 2;
+}
+#tabel1 a{
+    height: 0px;
+    
+}
+#tabel2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+#tabel2 img{
+    height: 150px;
+    margin-top: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    order: 2;
+    margin-left: 180px;
+}
+#tabel2 table{
+    order: 1;
+}
+#tabel2 a{
+    order: 2;
+    height:0px;
+    margin-right: 220px;
+}
+footer{
+    display:flex;
+    background-color:#382703 ;
+    border-radius: 5px;
+    box-shadow: 5px 10px #271b02;
+}
+footer a{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-decoration: none;
+    color:#56CC85;
+}
+
+

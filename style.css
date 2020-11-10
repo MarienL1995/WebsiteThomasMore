@@ -1,0 +1,118 @@
+#kop{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    color :white;
+    line-height: 40px;
+    text-align-last:center;
+    background-color:#382703 ;
+    border-radius: 5px;
+    box-shadow: 5px 10px #271b02;
+    margin-left: 8%;
+    height: 250px;
+    transform: skew(0.02turn,0deg);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}    
+body{
+    background: rgb(9,57,35);
+    background: radial-gradient(circle, rgba(9,57,35,1) 83%, rgba(31,21,2,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+img{
+    height: 300px;
+    border-radius: 450px;    
+}
+nav a{
+    color: #FFF;
+    border-radius: 5px;
+    background-position: 0%;
+    background-size: 200%;
+    text-decoration: none;
+    margin-left:80px;
+    padding: 5px;
+    font-size: 50px;
+    border: solid 1px white;
+    box-shadow:5px 10px #062115;
+    min-width: auto;
+}
+a:hover{
+    color: white;
+    background-position: 100%;
+    transition: ease-in 0.5s;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    border: none;
+    transform: translateY(-0.15em);
+}
+
+strong{
+    color: #56CC85;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-flow: row;
+    margin-top: 8%;
+    
+}
+article img{
+    order: 2;
+    width: 15%;
+    margin-left: 2%;
+    border: #382703 solid 3px;
+}
+article p{
+    margin-top: 5%;
+}
+footer{
+    display:flex;
+    background-color:#382703 ;
+    border-radius: 5px;
+    box-shadow: 5px 10px #271b02;
+    margin-top: 13%;
+}
+footer a{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-decoration: none;
+    color:#56CC85;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+form  button{
+    margin-top: 1%; 
+}
+form input{
+    padding-top: 1%;
+    margin-top: 1%;
+    background-color: lightgreen;
+}
+form textarea{
+    padding-top: 1%;
+    margin-top: 3%;
+    background-color: lightgreen;
+}
+main h2{
+    margin-left: 43%;
+    font-size: 45px;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 10px 10px #062115;
+}
+
+
